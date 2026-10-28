@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python & AI Masterclass | Обучение программированию</title>
+    <meta name="description" content="Освойте Python и нейросети с нуля до PRO за 3 месяца. Практика, реальные проекты, помощь менторов.">
+    <!-- Подключаем шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">AI<span>School</span></a>
+            
+            <nav class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">О курсе</a></li>
+                    <li><a href="#program" class="nav__link">Программа</a></li>
+                    <li><a href="#pricing" class="nav__link">Стоимость</a></li>
+                    <li><a href="#contact" class="nav__link">Записаться</a></li>
+                </ul>
+            </nav>
+
+            <!-- Кнопка бургер для мобильных -->
+            <button class="burger" id="burger-btn" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <span class="badge">🚀 Старт нового потока 1 ноября</span>
+                <h1 class="hero__title">Стань Python-разработчиком с поддержкой AI</h1>
+                <p class="hero__subtitle">Освойте самый востребованный язык программирования с нуля до уверенного Junior за 3 месяца. Реальные проекты в портфолио.</p>
+                <div class="hero__actions">
+                    <a href="#pricing" class="btn btn--primary">Узнать стоимость</a>
+                    <a href="#program" class="btn btn--outline">Программа курса</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <!-- Заглушка вместо картинки, можно заменить на реальную -->
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop" alt="Код на Python">
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция О курсе -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section__title">Почему выбирают нас?</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card__icon">💻</div>
+                    <h3 class="card__title">Только практика</h3>
+                    <p>Никакой сухой теории. Вы пишете код с первого дня обучения и решаете реальные бизнес-задачи.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">🤖</div>
+                    <h3 class="card__title">AI-ассистент</h3>
+                    <p>Учим использовать нейросети для ускорения написания кода и поиска ошибок, как это делают в топовых компаниях.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">🤝</div>
+                    <h3 class="card__title">Помощь менторов</h3>
+                    <p>В чате всегда на связи опытные разработчики, которые помогут разобраться в сложном коде.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Программа (Аккордеон) -->
+    <section class="program section" id="program">
+        <div class="container">
+            <h2 class="section__title">Программа обучения</h2>
+            <div class="accordion">
+                <div class="accordion__item">
+                    <button class="accordion__header">Модуль 1. Введение в Python <span>+</span></button>
+                    <div class="accordion__content">
+                        <p>Установка окружения, типы данных, переменные, условные операторы, циклы. Написание первой игры.</p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <button class="accordion__header">Модуль 2. ООП и базы данных <span>+</span></button>
+                    <div class="accordion__content">
+                        <p>Классы, наследование, работа с SQLite. Создание консольного менеджера задач.</p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <button class="accordion__header">Модуль 3. Создание Telegram-ботов <span>+</span></button>
+                    <div class="accordion__content">
+                        <p>Изучение библиотеки Aiogram 3. Создание бота-магазина с базой данных и подключением оплат.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Стоимость -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <h2 class="section__title">Выберите свой тариф</h2>
+            <div class="grid-3">
+                <div class="pricing-card">
+                    <h3>Базовый</h3>
+                    <div class="price">15 000 ₽</div>
+                    <ul>
+                        <li>Доступ к лекциям</li>
+                        <li>Чат студентов</li>
+                        <li>Домашние задания</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline">Выбрать</a>
+                </div>
+                <div class="pricing-card pricing-card--popular">
+                    <div class="popular-badge">Хит продаж</div>
+                    <h3>Оптимальный</h3>
+                    <div class="price">25 000 ₽</div>
+                    <ul>
+                        <li>Всё из Базового</li>
+                        <li>Проверка ДЗ ментором</li>
+                        <li>Помощь с резюме</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary">Выбрать</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>VIP</h3>
+                    <div class="price">40 000 ₽</div>
+                    <ul>
+                        <li>Всё из Оптимального</li>
+                        <li>Личный ментор</li>
+                        <li>Собеседование в IT</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма записи -->
+    <section class="contact section" id="contact">
+        <div class="container contact__container">
+            <div class="contact__info">
+                <h2 class="section__title">Остались вопросы?</h2>
+                <p>Оставьте заявку, и наш менеджер свяжется с вами в течение 15 минут.</p>
+            </div>
+            <form class="form" id="contact-form">
+                <input type="text" placeholder="Ваше имя" required class="form__input">
+                <input type="tel" placeholder="Ваш телефон" required class="form__input">
+                <button type="submit" class="btn btn--primary">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AI School. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
