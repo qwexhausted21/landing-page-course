@@ -23,9 +23,8 @@
 1. Скачайте файлы.
 2. Откройте `index.html` в любом современном браузере.
 
-## 📸 Скриншоты
+## 📸 Скриншоты (Web-версия)
 
-*(Сюда ты можешь добавить скриншоты, когда загрузишь их на GitHub)*
 *   <img width="1252" height="750" alt="image" src="https://github.com/user-attachments/assets/bca2b70d-c484-4e2f-94fd-1fd50ebca3f8" />
 
 *   <img width="1247" height="665" alt="image" src="https://github.com/user-attachments/assets/88441d75-80cc-462c-8ddf-134356fc5b67" />
@@ -34,6 +33,14 @@
 
 * <img width="1244" height="666" alt="image" src="https://github.com/user-attachments/assets/d09a6461-83b3-4c23-884b-c7f677f3f18d" />
 * <img width="1249" height="932" alt="image" src="https://github.com/user-attachments/assets/9eac471a-4860-449a-98be-b833d418561e" />
+
+## 📸 Скриншоты (Мобильная версия)
+
+* <img width="397" height="847" alt="image" src="https://github.com/user-attachments/assets/53576a99-7231-4043-8369-220af7d5a9f9" />
+
+* <img width="400" height="847" alt="image" src="https://github.com/user-attachments/assets/55b63831-90c0-4281-889e-ac569f28fbe1" />
+
+* <img width="402" height="850" alt="image" src="https://github.com/user-attachments/assets/00a8ca43-b6e1-4dd5-bc7e-19257be08296" />
 
 
 
