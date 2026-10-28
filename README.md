@@ -26,5 +26,15 @@
 ## 📸 Скриншоты
 
 *(Сюда ты можешь добавить скриншоты, когда загрузишь их на GitHub)*
-*   Главный экран (Desktop)
-*   Мобильная версия (с открытым бургер-меню)
+*   <img width="1252" height="750" alt="image" src="https://github.com/user-attachments/assets/bca2b70d-c484-4e2f-94fd-1fd50ebca3f8" />
+
+*   <img width="1247" height="665" alt="image" src="https://github.com/user-attachments/assets/88441d75-80cc-462c-8ddf-134356fc5b67" />
+
+* <img width="1253" height="649" alt="image" src="https://github.com/user-attachments/assets/b655e8a8-540a-498c-866e-bc9f7cd05566" />
+
+* <img width="1244" height="666" alt="image" src="https://github.com/user-attachments/assets/d09a6461-83b3-4c23-884b-c7f677f3f18d" />
+* <img width="1249" height="932" alt="image" src="https://github.com/user-attachments/assets/9eac471a-4860-449a-98be-b833d418561e" />
+
+
+
+
